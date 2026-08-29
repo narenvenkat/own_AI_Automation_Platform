@@ -13,6 +13,8 @@ node_modules/
 server/.env
 client/.env.local
 client/.env.production
+client/.env.example
+server/.env.example
 
 # Next.js Build Output
 .next/

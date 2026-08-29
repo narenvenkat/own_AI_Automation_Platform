@@ -71,7 +71,7 @@ git push -u origin main
 | `USE_IN_MEMORY_QUEUE` | `true` | In-memory queue runner (or specify Redis URL if using Upstash) |
 | `JWT_SECRET` | `agentflow_jwt_secret_key_prod_grade_2026_secure_tokens` | Secret key for JWT sessions |
 | `CREDENTIAL_ENCRYPTION_KEY` | `a1b2c3d4e5f60718293a4b5c6d7e8f90a1b2c3d4e5f60718293a4b5c6d7e8f90` | 32-byte hex key for AES-256 token encryption |
-| `GEMINI_API_KEY` | `AQ.Ab8RN6KhBNpvCY6wb8t7ZF4xwJBLGtJcQLlH4OaN82d0mUXuzA` | (Optional) Google Gemini API Key |
+| `GEMINI_API_KEY` | `YOUR_GEMINI_API_KEY` | (Optional) Google Gemini API Key |
 | `OPENROUTER_API_KEY` | *(Optional)* | (Optional) OpenRouter API Key |
 
 6. (Optional) Under **Advanced**, set **Health Check Path** to `/api/health`.
